@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Placar de Truco</string>
+    <string name="txt_timeA"> Time A </string>
+    <string name="txt_timeB"> Time B </string>
+    <string name="txt_mula">Mula</string>
+    <string name="btn_reset">Reset</string>
+    <string name="txt_pontos"> 0 </string>
+    <string name="btn_1ponto"> + 1 ponto </string>
+    <string name="btn_3pontos"> + 3 pontos </string>
+    <string name="btn_6pontos"> + 6 pontos </string>
+    <string name="btn_9pontos"> + 9 pontos </string>
+    <string name="btn_12pontos"> + 12 pontos </string>
+
 </resources>

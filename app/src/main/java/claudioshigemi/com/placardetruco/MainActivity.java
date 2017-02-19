@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     private int pontosTimeB = 0;
     private int mulasA = 0;
     private int mulasB = 0;
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void soma1pontoA(View view) {
         pontosTimeA += 1;
-
         mulaA(pontosTimeA);
         displayForTeamA(pontosTimeA);
     }
@@ -40,21 +39,18 @@ public class MainActivity extends AppCompatActivity {
         pontosTimeA += 6;
         mulaA(pontosTimeA);
         displayForTeamA(pontosTimeA);
-
     }
 
     public void soma9pontoA(View view) {
         pontosTimeA += 9;
         mulaA(pontosTimeA);
         displayForTeamA(pontosTimeA);
-
     }
 
     public void soma12pontoA(View view) {
         pontosTimeA += 12;
         mulaA(pontosTimeA);
         displayForTeamA(pontosTimeA);
-
     }
 
     public void displayForTeamB(int score) {
@@ -122,11 +118,9 @@ public class MainActivity extends AppCompatActivity {
     public void displayMulaB(int score) {
         TextView mula = (TextView) findViewById(R.id.txt_mulaB);
         mula.setText(String.valueOf(score));
-
     }
 
     public void mulaB(int pontos) {
-
         if (pontosTimeB >= 12) {
             pontosTimeB = 0;
             mulasB += 1;

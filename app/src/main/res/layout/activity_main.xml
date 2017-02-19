@@ -38,9 +38,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
-                        android:text="Time A"
+                        android:text="@string/txt_timeA"
                         android:textColor="@android:color/black"
-                        android:textSize="20dp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -51,9 +51,9 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="40dp"
                     android:paddingTop="10dp"
-                    android:text="0"
+                    android:text="@string/txt_pontos"
                     android:textColor="@android:color/black"
-                    android:textSize="20dp"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -63,7 +63,7 @@
                     android:layout_below="@+id/txt_placarA"
                     android:background="#3B5998"
                     android:onClick="soma1pontoA"
-                    android:text="  +1 ponto  "
+                    android:text="@string/btn_1ponto"
                     android:textColor="@android:color/white" />
 
                 <Button
@@ -73,7 +73,7 @@
                     android:layout_below="@+id/txt_placarA"
                     android:background="#3B5998"
                     android:onClick="soma3pontoA"
-                    android:text="+3 pontos"
+                    android:text="@string/btn_3pontos"
                     android:textColor="@android:color/white" />
 
                 <Button
@@ -83,7 +83,7 @@
                     android:layout_below="@+id/txt_placarA"
                     android:background="#3B5998"
                     android:onClick="soma6pontoA"
-                    android:text="+6 pontos"
+                    android:text="@string/btn_6pontos"
                     android:textColor="@android:color/white" />
 
                 <Button
@@ -93,7 +93,7 @@
                     android:layout_below="@+id/txt_placarA"
                     android:background="#3B5998"
                     android:onClick="soma9pontoA"
-                    android:text="+9 pontos"
+                    android:text="@string/btn_9pontos"
                     android:textColor="@android:color/white" />
 
                 <Button
@@ -103,7 +103,7 @@
                     android:layout_below="@+id/txt_placarA"
                     android:background="#3B5998"
                     android:onClick="soma12pontoA"
-                    android:text="+12 pontos"
+                    android:text="@string/btn_12pontos"
                     android:textColor="@android:color/white" />
 
             </LinearLayout>
@@ -133,7 +133,7 @@
                             android:paddingLeft="20dp"
                             android:text="Time B"
                             android:textColor="@android:color/black"
-                            android:textSize="20dp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
 
                     </RelativeLayout>
@@ -145,9 +145,9 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="40dp"
                     android:paddingTop="10dp"
-                    android:text="0"
+                    android:text="@string/txt_pontos"
                     android:textColor="@android:color/black"
-                    android:textSize="20dp"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -157,7 +157,7 @@
                     android:layout_below="@+id/txt_placarB"
                     android:background="#3B5998"
                     android:onClick="soma1pontoB"
-                    android:text=" +1 ponto "
+                    android:text="@string/btn_1ponto"
                     android:textAlignment="center"
                     android:textColor="@android:color/white" />
 
@@ -168,7 +168,7 @@
                     android:layout_below="@+id/txt_placarB"
                     android:background="#3B5998"
                     android:onClick="soma3pontoB"
-                    android:text="+3 pontos"
+                    android:text="@string/btn_3pontos"
                     android:textColor="@android:color/white" />
 
                 <Button
@@ -178,7 +178,7 @@
                     android:layout_below="@+id/txt_placarB"
                     android:background="#3B5998"
                     android:onClick="soma6pontoB"
-                    android:text="+6 pontos"
+                    android:text="@string/btn_6pontos"
                     android:textColor="@android:color/white" />
 
                 <Button
@@ -188,7 +188,7 @@
                     android:layout_below="@+id/txt_placarB"
                     android:background="#3B5998"
                     android:onClick="soma9pontoB"
-                    android:text="+9 pontos"
+                    android:text="@string/btn_9pontos"
                     android:textColor="@android:color/white" />
 
                 <Button
@@ -198,9 +198,8 @@
                     android:layout_below="@+id/txt_placarB"
                     android:background="#3B5998"
                     android:onClick="soma12pontoB"
-                    android:text="+12 pontos"
+                    android:text="@string/btn_12pontos"
                     android:textColor="@android:color/white" />
-
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
@@ -213,8 +212,7 @@
         android:layout_centerHorizontal="true"
         android:background="#CC181E"
         android:onClick="resetPlacar"
-
-        android:text="Reset"
+        android:text="@string/btn_reset"
         android:textColor="@android:color/white" />
 
     <TextView
@@ -224,9 +222,9 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:paddingBottom="10dp"
-        android:text="0"
+        android:text="@string/txt_pontos"
         android:textColor="@android:color/black"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textStyle="bold" />
 
     <TextView
@@ -234,9 +232,9 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/txt_mulaA"
         android:paddingBottom="20dp"
-        android:text="Mula"
+        android:text="@string/txt_mula"
         android:textColor="@android:color/black"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
     <TextView
@@ -246,7 +244,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:paddingBottom="10dp"
-        android:text="0"
+        android:text="@string/txt_pontos"
         android:textColor="@android:color/black"
         android:textSize="30sp"
         android:textStyle="bold" />
@@ -257,9 +255,9 @@
         android:layout_above="@id/txt_mulaB"
         android:layout_alignParentRight="true"
         android:paddingBottom="20dp"
-        android:text="Mula"
+        android:text="@string/txt_mula"
         android:textColor="@android:color/black"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
 </RelativeLayout>
